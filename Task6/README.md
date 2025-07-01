@@ -1,31 +1,25 @@
+# Task 6 – Subqueries and Nested Queries
 
-# Task 6: Sales Trend Analysis Using Aggregations
+## 📄 Description:
+This task focuses on learning subqueries and nested queries in SQL. The queries are built upon the E-commerce database schema from Task 1.
 
-This task focuses on analyzing sales trends using SQL aggregation techniques.
+## 🔍 Subqueries Covered:
+- Scalar subquery
+- Correlated subquery
+- Subquery in SELECT
+- Subquery in WHERE (IN, EXISTS, NOT EXISTS)
+- Subquery in FROM (Derived Table)
 
-## ✅ Objective
-- Analyze monthly revenue and order volume from an `online_sales` dataset.
+## 🗂️ Files Included:
+- Task6.sql – SQL file with all subquery examples.
 
-## 📄 Files Included
-- `task6_sales_trend_analysis.sql` — SQL script containing:
-  - Table creation (`online_sales`)
-  - Sample data insertion
-  - Queries to calculate monthly revenue and total orders
-  - Query to fetch top 3 months by revenue
+## 🛠️ Tools Used:
+- MySQL Workbench / DB Browser for SQLite
 
-## 🔧 Tools Used
-- SQLite (compatible with DB Browser for SQLite)
-- Can be adapted to MySQL/PostgreSQL with minor syntax changes
+## 🚀 Concepts Practiced:
+- Nested queries
+- Filtering using subqueries
+- Aggregations within subqueries
+- Derived tables
+- EXISTS and IN conditions
 
-## 📊 SQL Concepts Used
-- `GROUP BY`
-- `SUM()`, `COUNT(DISTINCT)`
-- `strftime()` for extracting month/year (SQLite)
-- `ORDER BY` and `LIMIT`
-
-## 🚀 Output
-- A summary of total revenue and total orders grouped by year and month.
-- Top 3 months with highest revenue.
-
-## 💡 Learning Outcome
-- How to perform time-based analysis using SQL aggregation functions.
